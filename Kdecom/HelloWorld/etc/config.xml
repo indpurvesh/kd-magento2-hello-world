@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Kdecom_HelloWorld>
+            <version>1.0.0.0</version>
+            <active>true</active>
+        </Kdecom_HelloWorld>
+    </modules>
+    <frontend>
+        <routers>
+            <helloworld>
+                <use>standard</use>
+                <args>
+                    <module>Kdecom_HelloWorld</module>
+                    <frontName>hello-world</frontName>
+                </args>
+            </helloworld>
+        </routers>
+        <layout>
+            <updates>
+                <helloworld module="Kdecom_HelloWorld">
+                    <file>layout.xml</file>
+                </helloworld>
+            </updates>
+        </layout>
+    </frontend>
+</config>

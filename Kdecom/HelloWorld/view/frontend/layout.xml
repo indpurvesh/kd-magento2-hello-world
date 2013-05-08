@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <hello_world_index translate="label" type="page" parent="default">
+        <label>Kdecom Hello World</label>
+        <reference name="content">
+            <block type="Kdecom_HelloWorld_Block_Index"  name="hello_world_index" template="index.phtml"/>
+        </reference>
+    </hello_world_index>
+    <hello_world_test translate="label" type="page" parent="default">
+        <label>Kdecom Hello World New Controller Action</label>
+        <reference name="content">
+            <block type="Kdecom_HelloWorld_Block_Index"  name="hello_world_test" template="test.phtml"/>
+        </reference>
+    </hello_world_test>
+</layout>
