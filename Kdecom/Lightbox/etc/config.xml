@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Kdecom_Lightbox>
+            <version>1.0.0.0</version>
+            <active>true</active>
+        </Kdecom_Lightbox>
+    </modules>
+    <frontend>
+        <routers>
+            <helloworld>
+                <use>standard</use>
+                <args>
+                    <module>Kdecom_Lightbox</module>
+                    <frontName>lightbox</frontName>
+                </args>
+            </helloworld>
+        </routers>
+        <layout>
+            <updates>
+                <lightbox module="Kdecom_Lightbox">
+                    <file>layout.xml</file>
+                </lightbox>
+            </updates>
+        </layout>
+    </frontend>
+</config>

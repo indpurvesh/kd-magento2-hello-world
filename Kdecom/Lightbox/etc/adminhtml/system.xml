@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <system>
+        <section id="catalog">
+            <group id="lightbox" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Kdecom Lightbox</label>
+                <field id="enable" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="1">
+                    <label>Enable</label>
+                    <comment>Change Yes and No to Enable or Disable the Lightbox effect on Product Page</comment>
+                    <source_model>Mage_Backend_Model_Config_Source_Yesno</source_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
